@@ -1,5 +1,9 @@
 # Animated piano made in HTML, Vanilla JS, CSS.
 
+## Live Demo:
+[Click here to see the Live Demo!](https://wiledusc.github.io/piano-player-js/index.html) 
+
+
 ## Current Features:
 - [x] Keyboard Shortcuts.
 
