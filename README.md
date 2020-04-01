@@ -6,6 +6,7 @@
 
 ## Current Features:
 - [x] Keyboard Shortcuts.
+- [x] Shortcuts on keys.
 
 
 ## Roadmap:
