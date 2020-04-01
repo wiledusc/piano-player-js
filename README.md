@@ -11,7 +11,7 @@
 [ ] Game like guitar hero to learn piano.
 
 ## Screenshots:
-![image](./screenshot/screen1.JPG)
+![image](./screenshots/screen1.png)
 
 Inspired by:
 https://www.youtube.com/watch?v=XcpJ1aWiy90
