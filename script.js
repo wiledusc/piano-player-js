@@ -18,6 +18,9 @@ var sounds = [
   { key: 'E5', 'sound': new Audio("sounds/E5.mp3") }
 ];
 
+var recorded = new Song();
+var timeCounter = performance.now();
+
 document.addEventListener("DOMContentLoaded", function(){
   bindClick();
 })
@@ -33,6 +36,9 @@ const playSound = audio => {
 };
 
 const play = (key) => {
+  //Record 
+  recorded.setNote(key, performance.now() - timeCounter);
+  
   const selectedKey = document.querySelector(`.${key}-key`);
   var selectedSound = sounds.filter( (arr) => arr.key == key)[0]?.sound;
   playSound(selectedSound);
@@ -43,7 +49,9 @@ const play = (key) => {
 const bindClick = () => {
   sounds.map((arr) => {
     var selectedKey = document.querySelector(`.${arr.key}-key`);
-    selectedKey.addEventListener("click", () => { play(arr.key) });
+    selectedKey.addEventListener("click", () => { 
+        play(arr.key);
+    });
   });
 }
 
