@@ -42,10 +42,11 @@ body {
   border-radius: 0 0 2px 2px;
   outline: none;
   cursor: pointer;
+  color: #FFFFFF;
 }
 
 .black-key.active {
-  background-image: linear-gradient(#000000, #101010);
+  background-image: linear-gradient(#000000, #4d4d4d);
 }
 
 .Db4-key {
