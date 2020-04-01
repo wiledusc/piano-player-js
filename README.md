@@ -1,25 +1,7 @@
 # Animated piano made in HTML, Vanilla JS, CSS.
 
-
-| Shortcut | Note |
-| ------ | ------ |
-| Q | C4 |
-| 2 | Db4 |
-| W | D4|
-| 3 | Eb4 |
-| E | E4 |
-| R | F4 |
-| 5 | Gb4 |
-| T | G4 |
-| 6 | Ab4 |
-| Y | A4 |
-| 7 | Bb4 |
-| U | B4 |
-| I | C5 |
-| 9 | Db5 |
-| O | D5 |
-| 0 | Eb5 |
-| P | E5 |
+Shortcut | Q | 2 | W | 3 | E | R | 5 | T | 6 | Y | 7 | U | I | 9 | O | 0 | P |
+Note | C4 | Db4 | D4 | Eb4 | E4 | F4 | Gb4 | G4 | Ab4 | A4 | Bb4 | B4 | C5 | Db5 | D5 | Eb5 | E5 |
 
 
 ## Live Demo:
