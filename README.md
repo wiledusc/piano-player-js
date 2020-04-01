@@ -1,8 +1,8 @@
 # Animated piano made in HTML, Vanilla JS, CSS.
 
-<sub>Shortcut | Q | 2 | W | 3 | E | R | 5 | T | 6 | Y | 7 | U | I | 9 | O | 0 | P 
+<sub>Shortcut</sub> | <sub> Q</sub> | <sub>2</sub> | <sub>W</sub> | <sub>3</sub> | <sub>E</sub> | <sub>R</sub> | <sub>5</sub> | <sub>T</sub> | <sub>6</sub> | <sub>Y</sub> | <sub>7</sub> | <sub>U</sub> | <sub>I</sub> | <sub>9</sub> | <sub>O</sub> | <sub>0</sub> | <sub>P </sub>
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- 
-Note | C4 | Db4 | D4 | Eb4 | E4 | F4 | Gb4 | G4 | Ab4 | A4 | Bb4 | B4 | C5 | Db5 | D5 | Eb5 | E5 </sub>
+<sub> Note </sub> | <sub>C4</sub> | <sub>Db4</sub> | <sub>D4</sub> | <sub>Eb4</sub> | <sub>E4</sub> | <sub>F4</sub> | <sub>Gb4</sub> | <sub>G4</sub> | <sub>Ab4</sub> | <sub>A4</sub> | <sub>Bb4</sub> | <sub>B4</sub> | <sub>C5</sub> | <sub>Db5</sub> | <sub>D5</sub> | <sub>Eb5</sub> | <sub>E5 </sub>
 
  
 ## Live Demo:
