@@ -1,0 +1,38 @@
+progress {
+    width: 100%;
+}
+
+progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: white;
+    color: blue;
+    height: 5px;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid lighten(#acacac, 20%);
+    color: blue;
+}
+
+progress::-webkit-progress-value {
+    background-color: blue;
+}
+
+p {
+    font-size: 1.6rem;
+}
+.start-time{
+    color: white;
+    float: left; 
+    position: relative; 
+    left: 15px;
+}
+.end-time{
+    color: white;
+    float: left; 
+    position: relative; 
+    right: 20px;
+}

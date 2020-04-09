@@ -21,7 +21,7 @@ var sounds = [
 var recorded = new Song();
 var timeCounter = performance.now();
 
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function () {
   bindClick();
 })
 
@@ -38,9 +38,9 @@ const playSound = audio => {
 const play = (key) => {
   //Record 
   recorded.setNote(key, performance.now() - timeCounter);
-  
+
   const selectedKey = document.querySelector(`.${key}-key`);
-  var selectedSound = sounds.filter( (arr) => arr.key == key)[0]?.sound;
+  var selectedSound = sounds.filter((arr) => arr.key == key)[0]?.sound;
   playSound(selectedSound);
   selectedKey.classList.add("active");
   setTimeout(() => selectedKey.classList.remove("active"), 200);
@@ -49,9 +49,15 @@ const play = (key) => {
 const bindClick = () => {
   sounds.map((arr) => {
     var selectedKey = document.querySelector(`.${arr.key}-key`);
-    selectedKey.addEventListener("click", () => { 
-        play(arr.key);
+    selectedKey.addEventListener("click", () => {
+      play(arr.key);
     });
+  });
+
+  document.querySelector('#demo1').addEventListener("click", () => {
+    const music1 = new Song();
+    music1.setSong(happyBirthdayNotes);
+    music1.playSong();
   });
 }
 
